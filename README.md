@@ -101,5 +101,4 @@ Quantum feature map dimensions:
 
 ---
 
-## 📁 Repository Structure
 
