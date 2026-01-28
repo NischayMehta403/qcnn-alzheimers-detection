@@ -22,18 +22,26 @@ The model combines:
 
 ## 🧪 Dataset
 
-- Source: Kaggle Alzheimer’s Disease MRI Dataset
-- Classes:
+- Source: Kaggle — Alzheimer’s Multiclass Dataset (Equal and Augmented)  
+- Link: https://www.kaggle.com/datasets/aryansinghal10/alzheimers-multiclass-dataset-equal-and-augmented
+
+### Dataset Details
+- MRI brain images
+- Four classes:
   - Normal
   - Very Mild Demented
   - Mild Demented
   - Moderate Demented
-- Training samples: 5120
-- Testing samples: 1481
+- Balanced and augmented dataset
+- Publicly available for research and educational use
+
+In this project:
+- Training samples: 5120  
+- Testing samples: 1481  
 - Image resolution used: 28×28 (due to computational constraints)
 
 > ⚠️ Due to dataset licensing, size, and medical data considerations, the raw MRI data is not included in this repository.  
-> Please download the dataset directly from Kaggle and place it in the appropriate data directory.
+> Please download the dataset directly from Kaggle using the link above and place it in the appropriate data directory as described in `scripts/data_instructions.md`.
 
 ---
 
